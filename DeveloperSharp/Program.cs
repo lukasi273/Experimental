@@ -81,6 +81,8 @@ namespace DeveloperSharp
                     var aiobj = obj as Obj_AI_Base;
                     Drawing.DrawText(x, y + 40, Color.DarkTurquoise, "BaseName: " + aiobj.CharData.BaseSkinName);
                     Drawing.DrawText(x, y + 50, Color.DarkTurquoise, "Name: " + aiobj.CharData.Name);
+                    Drawing.DrawText(x, y + 60, Color.DarkTurquoise, "MaxHealth: " + aiobj.MaxHealth);
+                    Drawing.DrawText(x, y + 70, Color.DarkTurquoise, "MaxMana: " + aiobj.MaxMana);
                 }
                 else if (obj is AttackableUnit)
                 {
